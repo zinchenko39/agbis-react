@@ -1,0 +1,38 @@
+.search_wrapper {
+    width: 1050px;
+    position: relative;
+    top: 190px;
+    height: 55px;
+    margin: 0 auto;
+}
+
+.search_wrapper h1 {
+    display: inline;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.search_input {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 265px;
+    padding-bottom: 9px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1D252E;
+    border: 0;
+    border-bottom: 1px solid #2A3B45;
+}
+
+.search_wrapper svg {
+    top: 20px;
+    position: absolute;
+    right: 0;
+}

@@ -1,0 +1,73 @@
+.item_card__wrapper {
+    position: relative;
+    display: flex;
+    width: 946px;
+    height: 124px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    margin-bottom: 8px;
+}
+
+.item_card_name {
+    position: absolute;
+    width: 466px;
+    height: 22px;
+    left: 60px;
+    top: 16px;
+}
+
+.item_card_name p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.item_card_details {
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    width: 130px;
+}
+
+.item_card_details p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0;
+}
+
+.item_card_details svg {
+    position: absolute;
+    top: 3px;
+    right: 25px;
+}
+
+.item_card_price {
+    position: absolute;
+    width: 63px;
+    height: 24px;
+    top: 50px;
+    right: 140px;
+}
+
+.item_card_price span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.item_card_basket {
+    position: absolute;
+    top: 34px;
+    right: 53px;
+    width: 52px;
+    height: 52px;
+}

@@ -1,0 +1,61 @@
+.services_main {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #0084CA;
+    margin-top: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.services_main p {
+    margin-bottom: 7px;
+}
+
+.services_items__list {
+    display: none;
+    width: 150px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1D252E;
+}
+
+.services_item {
+    margin-bottom: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.services_item_active {
+    margin-bottom: 7px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    background: #F2F2F2;
+    border-radius: 6px;
+}
+
+.services_item_card__wrapper {
+    position: absolute;
+    left: 200px;
+    display: flex;
+    width: 947px;
+    height: 100%;
+    flex-direction: column;
+}
+
+.active_title {
+    text-decoration: underline;
+}
